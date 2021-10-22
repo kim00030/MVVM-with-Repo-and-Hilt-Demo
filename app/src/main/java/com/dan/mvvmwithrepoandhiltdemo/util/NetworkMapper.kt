@@ -7,7 +7,7 @@ import javax.inject.Inject
 /**
  * Created by Dan Kim
  */
-class NetworkMapper @Inject constructor() : EntityMapper<BlogNetworkEntity, Blog> {
+class NetworkMapper : EntityMapper<BlogNetworkEntity, Blog> {
 
     override fun mapFromEntity(entity: BlogNetworkEntity): Blog {
         return Blog(
