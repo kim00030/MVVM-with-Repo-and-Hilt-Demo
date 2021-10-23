@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MVVM with Repo and Hilt Demo</string>
+    <string name="msg_unknown_error">Unknown Error</string>
 </resources>
